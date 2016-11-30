@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Proxima-Font';
+    src: url(font/PNA-LIGHT.otf);
+}
+
+body{
+	background-color: #f7f7f7;
+	font-family: 'Proxima-Font';
+    font-size: 18px;
+    text-align: center;
+	color: #5d5d5d;
+
+
+}
+
+/*MOBILE RESPONSIVE NAV*/
+nav .button-collapse {
+   	float: right;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+/*LOGO*/
+.logoimg{
+	width: 90px;
+	height: 90px;
+	margin-top: 5px;
+}
+
+/*NAVIGATION*/
+nav{
+	background-color: #FFF;
+    height: 100px;
+}
+
+nav ul a {
+    transition: background-color .3s;
+    font-size: 18px;
+    color: #f36c3f;
+    /* display: block; */
+    padding: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+	text-decoration: underline;
+    color: #f36c3f;
+    background-color: #FFF;
+
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.navLinks{
+	padding-top: 20px;
+}
+
+/*LOGO*/
+
+.logo{
+	float: left;
+	position: relative;
+	height: 95px;
+	width: 95px;
+}
+
+/*HEADERS IMG AND FONTS*/
+.indexHeader {
+    color: #f36c3f;
+    font-weight: bold;
+}
+
+.indexH2Tomato{
+	font-size: 35px;
+	color: #f36c3f;
+	font-weight: bold;
+}
+
+.indexH2Grey{
+	font-size: 27px;
+	color: #5d5d5d;
+	font-weight: bold;
+}
+
+#imgHeader img{
+  width: 100%;
+  height: auto;
+}
+
+#imgHeader{
+	margin-top:-13px;
+	padding:0px;
+}
+
+/*SECTIONS*/
+.iconSections{
+	padding: 10px;
+	margin: 10px;
+	min-height: 600px;
+	width: 235px;
+}
+
+.containerIcons{
+	width: 990px;
+	height: auto;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.containerIcons img{
+	height: 245px;
+	width: 245px;
+}
+
+.skillCont{
+	float: left;
+	width: 192px;
+	height: 192px;
+}
+
+
+.skillCont img{
+	width: 172px;
+	height: 172px;
+	border-style: solid;
+	padding: 10px;
+
+}
+
+
+/*RESPONSIVE IMAGES*/
+.resp img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*FOOTER*/
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #b3b3b3;
+}
+
+footer.text{
+	color: #FFF;
+	font-weight: bold;
+	word-spacing: 100px;
+	text-align: center;	
+	font-size: 15px;
+}
+
+
+/*.socialMediaIcons{
+	margin: 0 auto;
+	padding-right: 20px;
+}
+
+.socialMediaIcons img{
+	width: 178px;
+	height: 178px;
+}*/
