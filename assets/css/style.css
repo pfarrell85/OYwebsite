@@ -90,7 +90,7 @@ text-decoration: none;
 	color: #f36c3f;
 }
 
-.navModals a:hover {
+.navModalsLinks:hover {
 text-decoration: none;
 color: #FFF;
 }
@@ -114,7 +114,36 @@ color: #FFF;
 	border-right-style: solid;
 }
 
+input#email.validate{
+	 border: 1px solid #979797;
+	 width: 75%;
+}
 
+input#password.validate{
+	 border: 1px solid #979797;
+	 width: 75%;
+}
+
+label {
+    font-size: 18px;
+    color: #5d5d5d;
+    float: left;
+    margin-top: -35px;
+    position: absolute;
+}
+
+form.formCont.col.s12.m12{
+	width: 96%;
+}
+
+/*COLORS*/
+.tomato{
+	color: #f36c3f;
+}
+
+.darkGrey{
+	color: #5d5d5d;
+}
 /*LOGO*/
 
 .logo{
