@@ -18,6 +18,11 @@ $( "#signUp" ).click(function() {
     $('.modal').modal();
 });
 
+$( "#logIn" ).click(function() {
+    $('.modal').modal();
+});
+
+
 $( document ).ready(function() {
   
 
