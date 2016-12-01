@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Proxima-Font';
+    src: url(font/PNA-LIGHT.otf);
+}
+
+body{
+	background-color: #f7f7f7;
+	font-family: 'Proxima-Font';
+}
+
+/*mobile resposive navigation*/
+nav .button-collapse {
+   	float: right;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+
+.brand-logo img{
+	width: 90px;
+	height: 90px;
+	margin-top: 5px;
+}
+
+nav{
+	background-color: #FFF;
+    height: 100px;
+}
+
+nav ul a {
+    transition: background-color .3s;
+    font-size: 18px;
+    color: #f36c3f;
+    /* display: block; */
+    padding: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+	text-decoration: underline;
+    color: #f36c3f;
+    background-color: #FFF;
+
+}
+
+.navlinks {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+.carouselCont{
+	background-color:#b3b3b3;
+}
+
+.navLinks{
+	padding-top: 20px;
+}
+
+.indexHeader {
+    color: #f36c3f;
+    font-weight: bold;
+}
+
+.carousel.carousel-slider {
+    top: -13px;
+    left: 0;
+    height: 0;
+}
+
+
+#imgHeader img{
+  width: 100%;
+  height: auto;
+}
+
+#imgHeader{
+	margin-top:-13px;
+	padding:0px;
+}
+
+.indexH2Tomato{
+	font-size: 35px;
+	color: #f36c3f;
+	font-weight: bold;
+}
+
+.iconSections{
+	padding: 10px;
+	margin: 10px;
+	min-height: 500px;
+}
+
+.indexH2Grey{
+	font-size: 27px;
+	color: #5d5d5d;
+	font-weight: bold;
+}
+
+
+/*RESPONSIVE IMAGES*/
+.resp img{
+	width: 100%;
+	height: auto;
+}
+
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #b3b3b3;
+}
+
+footer.text{
+	color: #FFF;
+	font-weight: bold;
+	word-spacing: 100px;
+	text-align: center;	
+	font-size: 15px;
+}
+
+
+/*==================================Profile Style====================================*/
+/*#profilePic {
+	width: 300px;
+	height: 300px;
+}*/
+.profile {
+	background-color: white !important;
+}
+/*.container-profile {
+	background-color: white;
+}*/
+.card-title {
+	color: #F45828;
+}
+.card {
+	border-radius: 5px;
+	height: auto;
+	background-color: #F7F7F7 !important;
+	height: 100%;
+	min-height: 300px;
+
+}
+
+.btn {
+	background-color: #4F9938;
+}
+
+#formAvail {
+	/*display: inline-flex;*/
+}
+
+.career-nav{
+	font-size: 12px;
+	padding: 12px;
+}
+
+#profile-card {
+	min-height: 400px;
+}
+
+#profile-IDcard {
+	min-height: 700px !important;
+}
+
+.block{
+	display: block;
+}
