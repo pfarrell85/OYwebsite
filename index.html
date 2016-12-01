@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Military Talent for Growing Businesses</title>
+  <title>Military Talent for Growing Businesses</title>
 </head>
 <!-- Materialize CSS -->
 <link rel="stylesheet" type="text/css" href="assets/css/materialize.css">     
@@ -9,34 +9,63 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- Stylesheets -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <body>
 
 
-<!-- =======NAVIGATION BAR====== -->
+<!-- =================!!!NAVIGATION!!!======================= -->
+
 <!-- FIX LOGO AND MENU BAR FOR RESPONSIVENESS -->
 <nav class="navStlye" role="navigation">
-	<div class="nav-wrapper container">
-	<div class="logo"><a href="index.html">
-		<img src="assets/images/logoOrange.png" class="logoimg">
-	</a></div>
-	<div class="navLinks">
-		<ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">FOR VETERANS</a></li>
-        <li><a href="#">FOR COMPANIES</a></li>
-        <li><a href="#">SIGN UP</a></li>
-        <li><a href="#">LOG IN</a></li>
+  <div class="nav-wrapper container">
+  <div class="logo"><a href="index.html">
+    <img src="assets/images/logoOrange.png" class="logoimg">
+  </a></div>
+  <div class="navLinks">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">FOR VETERANS</a></li>
+        <li><a href="companies.html">FOR COMPANIES</a></li>
+        <!-- MODALS -->
+        <li id="signUp"><a href="#signUp" class="modal-trigger">SIGN UP</a></li>
+        <div id="signUp" class="modal navModals right">
+
+            <div class="row">
+              <div class="col s12 m12">
+                <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
+                <p>Let us know if you are a <b>company</b> looking to <b>submit</b> a <b>project for a veteran</b> or a <b>military veteran</b> or <b>spouse</b> seeking an <b>internship to gain skills:</b></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s12 m6 hrLine">
+                <img src="assets/images/icons/desk.png" width="150px" height="155px"><br>
+                <a class="btn-large green darken-3 btnsize" id="signUpForm">START MY INTERNSHIP</a>
+              </div>
+              <div class="col s12 m6">
+                <img src="assets/images/icons/signUpIcon.png" width="150px" height="155px">
+                <a class="btn-large grey btnsize" id="signUpForm">SUBMIT A<BR>PROJECT</a>
+              </div>
+              <div class="col s12 m12">
+              <!-- FIX HOVER FOR LOG IN HERE -->
+                <p>Already have an account?<br><a href="#" class="signupHover">Log in here</a></p>
+              </div>
+            </div>
+        </div> <!-- END SIGN UP MODAL -->
+          
+        <li id="logIn"><a>LOG IN</a></li>
       </ul>
-	</div>
+  </div>
 
-<!-- =================!!!FIX MOBILE NAVIGATION!!!======================= -->
-<!-- /////////////////////////////////////////////////////////////////// -->
-		<a href="#" data-activates="nav-mobile" class="button-collapse test"><i class="material-icons">menu</i></a>
-	</div>
+<!-- =================!!!MOBILE NAVIGATION!!!======================= -->
+<!-- FIX MOBILE NAVIGATION LINKS -->
+    <a href="#" data-activates="nav-mobile" class="button-collapse test"><i class="material-icons">menu</i></a>
+  </div>
 </nav>
-<!-- ////////////////////END MOBILE NAVIGATION////////////////////////// -->
+<!-- =================!!!END NAVIGATION!!!======================= -->
 
- <!-- ======CAROUSEL====== -->
+<!-- ======CAROUSEL====== -->
   <div class="section">
     <div class="row" >
 <!--       <div class="col s12 m12"> -->
@@ -149,17 +178,26 @@
         </div>
     </div>
 
+
+ 
+<!-- =================!!!FOOTER!!!======================= -->
   <footer class="page-footer text">
       <div class="row">
         <div class="col s12 m12">
         About FAQ  Careers Contact Privacy Policy
         </div>
       </div>
-  </footer><!-- JQuery -->  
+  </footer>
+
+<!-- =================!!!END FOOTER!!!======================= -->
+
+<!-- =================!!!SCRIPTS!!!======================= -->
+<!-- JQuery -->  
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
 <!-- Materialize JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 <!-- Javascript -->
