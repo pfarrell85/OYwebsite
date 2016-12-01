@@ -10,7 +10,6 @@ body{
     text-align: center;
 	color: #5d5d5d;
 
-
 }
 
 /*MOBILE RESPONSIVE NAV*/
@@ -62,6 +61,59 @@ nav .nav-wrapper {
 .navLinks{
 	padding-top: 20px;
 }
+
+/*NAV MODALS*/
+.navModals {
+    overflow: hidden;
+    width: 500px;
+    min-height: 525px;
+}
+
+.navModals p {
+color: #9d9d9d;
+line-height: 20px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 25px;
+}
+
+.navModals b{
+	font-weight: bold;
+	color: #f36c3f;
+}
+
+.navModals a:link {
+text-decoration: none;
+}
+
+.signupHover:hover{
+	color: #f36c3f;
+}
+
+.navModals a:hover {
+text-decoration: none;
+color: #FFF;
+}
+
+.btnsize{
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 12px;
+    width: 75%;	
+}
+
+.closeBTN{
+	color: #000;
+	padding-right: 10px;
+		
+}
+
+.hrLine{
+	border-right-width: 1px;
+	border-right-color: #5d5d5d;
+	border-right-style: solid;
+}
+
 
 /*LOGO*/
 

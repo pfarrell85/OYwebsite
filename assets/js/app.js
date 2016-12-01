@@ -1,3 +1,4 @@
+// RANDOM IMAGES HEADER
 function getHeader() {
   var imageList = 
   ["assets/images/OweYaaSoldier.jpg", "assets/images/sliderTest.jpg", "assets/images/sliderTest2.jpg",
@@ -11,8 +12,17 @@ function getHeader() {
   $("#imgHeader").append(headerImages);	
 }
 
+// SIGN-UP MODAL
+
+$( "#signUp" ).click(function() {
+    $('.modal').modal();
+});
+
 $( document ).ready(function() {
   
+
+
 	getHeader();
 
 });
+
