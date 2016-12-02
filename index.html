@@ -27,10 +27,11 @@
     <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">FOR VETERANS</a></li>
         <li><a href="companies.html">FOR COMPANIES</a></li>
-        <!-- MODALS -->
-        <li id="signUp"><a href="#signUp" class="modal-trigger">SIGN UP</a></li>
-        <div id="signUp" class="modal navModals right">
-
+        <!-- SIGN UP MODALS -->
+        <li id="signUp"><a href="#signUpModal" class="modal-trigger">SIGN UP</a></li>
+        <div id="signUpModal" class="modal navModals right">
+        <!-- Added modal content to be able to .empty() to replace that modal with the sign up form? -->
+          <div id="modalContent">
             <div class="row">
               <div class="col s12 m12">
                 <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
@@ -41,19 +42,21 @@
             <div class="row">
               <div class="col s12 m6 hrLine">
                 <img src="assets/images/icons/desk.png" width="150px" height="155px"><br>
-                <a class="btn-large green darken-3 btnsize navModalsLinks" id="signUpForm">START MY INTERNSHIP</a>
+                <a class="btn-large green darken-3 btnsize navModalsLinks" id="startInternship">START MY INTERNSHIP</a>
               </div>
               <div class="col s12 m6">
                 <img src="assets/images/icons/signUpIcon.png" width="150px" height="155px">
                 <a class="btn-large grey btnsize navModalsLinks" id="signUpForm">SUBMIT A<BR>PROJECT</a>
               </div>
               <div class="col s12 m12">
-              <!-- FIX HOVER FOR LOG IN HERE -->
                 <p>Already have an account?<br><a href="#logIn" class="signupHover">Log in here</a></p>
               </div>
-            </div>
-        </div> <!-- END SIGN UP MODAL -->
-          
+            </div>            
+          </div>
+        </div> 
+        <!-- END SIGN UP MODAL -->
+
+        <!-- LOG IN MODAL -->
         <li id="logIn"><a href="#logIn" class="modal-trigger">LOG IN</a></li>
         <div id="logIn" class="modal navModals right">
 
@@ -61,26 +64,25 @@
               <div class="col s12 m12">
                 <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
               </div>  
-            <div class="row">
-              <form class="formCont col s12 m12">
-                <div class="row">
-                  <div class="col s12 m12">
-                    <label for="email">Email:<span class="tomato">*</span></label>               
-                    <input id="email" type="text" class="validate"><br>
-                    <label for="password">Password:<span class="tomato">*</span></label>               
-                    <input id="password" type="text" class="validate"><br>
-                    <span class="darkGrey right">Required<span class="tomato">*</span></span>
+              <div class="row">
+                <form class="formCont col s12 m12">
+                  <div class="row">
+                    <div class="col s12 m12">
+                      <label for="email">Email:<span class="tomato">*</span></label>               
+                      <input id="email" type="text" class="validate"><br>
+                      <label for="password">Password:<span class="tomato">*</span></label>               
+                      <input id="password" type="text" class="validate"><br>
+                      <span class="darkGrey requiredLogin right"><span class="tomato">*</span> required</span>
+                    </div>              
+                    <!-- SUBMIT BUTTON -->                    
+                    <button class="btn tomatoBG" id="submitLogin">LOGIN</button>
                   </div>
-                </div>
-              </form>
-            </div>
-
-
-
-
+                </form>
               </div>
             </div>
-        </div> <!-- END SIGN UP MODAL -->
+        </div>
+        </div> 
+        <!-- END LOG MODAL -->
       </ul>
   </div>
 
