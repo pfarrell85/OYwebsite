@@ -22,6 +22,10 @@ $( "#logIn" ).click(function() {
     $('.modal').modal();
 });
 
+$( "#startInternship" ).click(function() {
+    alert("test");
+});
+
 
 $( document ).ready(function() {
   

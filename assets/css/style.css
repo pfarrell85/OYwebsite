@@ -66,7 +66,7 @@ nav .nav-wrapper {
 .navModals {
     overflow: hidden;
     width: 500px;
-    min-height: 525px;
+	height: auto;
 }
 
 .navModals p {
@@ -133,12 +133,24 @@ label {
 }
 
 form.formCont.col.s12.m12{
-	width: 96%;
+    width: 93%;
+    margin: 0px auto;
+    margin-left: 14px;
+}
+
+.requiredLogin{
+    margin-top: -37px;
+    margin-right: 62px;
+    font-size: 14px;
 }
 
 /*COLORS*/
 .tomato{
 	color: #f36c3f;
+}
+
+.tomatoBG{
+	background-color: #f36c3f;
 }
 
 .darkGrey{
