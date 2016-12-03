@@ -4,9 +4,16 @@
 }
 
 body{
+	width: 100%
+	max-width:1000px;
 	background-color: #f7f7f7;
 	font-family: 'Proxima-Font';
+    font-size: 18px;
+    text-align: center;
+	color: #5d5d5d;
+	margin: auto;
 }
+
 
 /*mobile resposive navigation*/
 nav .button-collapse {
@@ -27,13 +34,23 @@ nav .button-collapse {
 nav{
 	background-color: #FFF;
     height: 100px;
+    font-size: 10px;
+}
+nav li  {
+    transition: background-color .3s;
+    font-size: 18px;
+    color: #f36c3f;
+     display: block; 
+    padding: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 nav ul a {
     transition: background-color .3s;
-    font-size: 18px;
+    font-size: 14px;
     color: #f36c3f;
-    /* display: block; */
+     display: block; 
     padding: 0 15px;
     cursor: pointer;
     font-weight: bold;
@@ -50,26 +67,9 @@ nav ul a:hover{
 	text-decoration: none;
 	font-size: 22px;
 	color: black;
-}
-
-.carouselCont{
-	background-color:#b3b3b3;
-}
-
-.navLinks{
 	padding-top: 20px;
 }
 
-.indexHeader {
-    color: #f36c3f;
-    font-weight: bold;
-}
-
-.carousel.carousel-slider {
-    top: -13px;
-    left: 0;
-    height: 0;
-}
 
 
 #imgHeader img{
@@ -100,7 +100,6 @@ nav ul a:hover{
 	font-weight: bold;
 }
 
-
 /*RESPONSIVE IMAGES*/
 .resp img{
 	width: 100%;
@@ -123,60 +122,87 @@ footer.text{
 
 
 /*==================================Profile Style====================================*/
-/*#profilePic {
-	width: 300px;
-	height: 300px;
-}*/
+
+h4, {
+	color: #f36c3f !important;;
+}
 .profile {
 	background-color: white !important;
 }
-/*.container-profile {
-	background-color: white;
-}*/
 .card-title {
 	color: #F45828;
 }
 .card {
 	border-radius: 5px;
-	height: auto;
 	background-color: #F7F7F7 !important;
 	height: 100%;
-	min-height: 300px;
-
 }
 
 .btn {
 	background-color: #4F9938;
 }
 
-#formAvail {
-	/*display: inline-flex;*/
-}
-
 .career-nav{
 	font-size: 12px;
-	padding: 12px;
+	
 }
 
-#profile-card {
-	min-height: 400px;
+#cardShort {
+	max-height: 400px;
+	min-height: 400px
+
 }
 
-#profile-IDcard {
-	min-height: 700px !important;
-	max-width: 330px !important;
+#cardLong {
+	min-height: 822px !important;
+	/*max-width: 88%*/
+/*	width:100%;*/
 }
 
-.block{
-	display: block;
+.input-field label {
+	font-size: 14px;
+	color: black !important;
+	position: initial !important;
+	font-weight: none !important;
+}
+input{
+	background-color: black !important;
 }
 
-.radioGroup label {
-  display: inline-block;
-  margin: 0 0.2em;
-  text-align: center;
+/*==========================TABS==========================*/
+
+#careerSlider
+{
+    display: none;
+    background: grey;
+    color: #FFF;
+    padding: 10px;
+    min-height: 1000px;
 }
-.radioGroup label input[type="radio"] {
-	display: inline-block;
-  margin: 0.5em auto;
+
+#projectSlider
+{
+    display: none;
+    background: grey;
+    color: #FFF;
+    padding: 10px;
+    min-height: 1000px;
+}
+
+
+body.career .careerSlider, body.login .careerSlider {
+    opacity: 1;
+    height: 100%;
+    transition: opacity 0s 0.5s ease-out, height 0s 0.5s ease-out;
+    -webkit-transition: opacity 0s 0.5s ease-out, height 0s 0.5s ease-out;
+}
+.careerSlider {
+    z-index: 8;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.5s 2s ease-out, height 0s 2.5s ease-out;
+    -webkit-transition: opacity 0.5s 2s ease-out, height 0s 2.5s ease-out;
 }
