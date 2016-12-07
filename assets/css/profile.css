@@ -8,13 +8,36 @@ body{
 	max-width:1000px;
 	background-color: #f7f7f7;
 	font-family: 'Proxima-Font';
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 	color: #5d5d5d;
 	margin: auto;
 }
 
+.box{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
 
+h1, h5, h4, nav ul a {
+    color: #F45828 !important;
+
+}
+
+h5, .title, a{
+    font-size: 20px !important;;
+    color: #F45828 !important;
+    font-weight: 500;
+}
+
+a {
+    font-size: 14px !important;
+}
+
+#name-title{
+    margin: 5px !important;
+}
 /*mobile resposive navigation*/
 nav .button-collapse {
    	float: right;
@@ -38,10 +61,10 @@ nav{
 }
 nav li  {
     transition: background-color .3s;
-    font-size: 18px;
+    font-size: 14px;
     color: #f36c3f;
-     display: block; 
-    padding: 0 15px;
+    display: block; 
+/*    padding: 0 15px;*/
     cursor: pointer;
     font-weight: bold;
 }
@@ -50,7 +73,7 @@ nav ul a {
     transition: background-color .3s;
     font-size: 14px;
     color: #f36c3f;
-     display: block; 
+    display: block; 
     padding: 0 15px;
     cursor: pointer;
     font-weight: bold;
@@ -60,7 +83,6 @@ nav ul a:hover{
 	text-decoration: underline;
     color: #f36c3f;
     background-color: #FFF;
-
 }
 
 .navlinks {
@@ -69,7 +91,6 @@ nav ul a:hover{
 	color: black;
 	padding-top: 20px;
 }
-
 
 
 #imgHeader img{
@@ -88,11 +109,11 @@ nav ul a:hover{
 	font-weight: bold;
 }
 
-.iconSections{
+/*.iconSections{
 	padding: 10px;
 	margin: 10px;
 	min-height: 500px;
-}
+}*/
 
 .indexH2Grey{
 	font-size: 27px;
@@ -113,12 +134,43 @@ footer.page-footer {
 }
 
 footer.text{
-	color: #FFF;
+	color: #FFF !important;
 	font-weight: bold;
 	word-spacing: 100px;
 	text-align: center;	
 	font-size: 15px;
 }
+
+.icons li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+
+}
+
+/*#ig {
+    background:url(../images/socialMedia_10.png) no-repeat center center;
+    background-size: cover; 
+
+}
+
+#linkedin {
+    background:url(../images/socialMedia_05.png) no-repeat center center;
+    background-size: cover; 
+
+}
+
+#facebook {
+    background:url(../images/socialMedia_07.png) no-repeat center center;
+    background-size: cover; 
+
+}
+
+#twitter {
+    background:url(../images/socialMedia_12.png) no-repeat center center;
+    background-size: cover; 
+
+}*/
 
 
 /*==================================Profile Style====================================*/
@@ -150,16 +202,13 @@ h4, {
 #cardShort {
 	max-height: 400px;
 	min-height: 400px
-
 }
 
 #cardLong {
 	min-height: 822px !important;
-	/*max-width: 88%*/
-/*	width:100%;*/
 }
 
-.input-field label {
+/*.input-field label {
 	font-size: 14px;
 	color: black !important;
 	position: initial !important;
@@ -167,42 +216,7 @@ h4, {
 }
 input{
 	background-color: black !important;
-}
+}*/
 
 /*==========================TABS==========================*/
 
-#careerSlider
-{
-    display: none;
-    background: grey;
-    color: #FFF;
-    padding: 10px;
-    min-height: 1000px;
-}
-
-#projectSlider
-{
-    display: none;
-    background: grey;
-    color: #FFF;
-    padding: 10px;
-    min-height: 1000px;
-}
-
-
-body.career .careerSlider, body.login .careerSlider {
-    opacity: 1;
-    height: 100%;
-    transition: opacity 0s 0.5s ease-out, height 0s 0.5s ease-out;
-    -webkit-transition: opacity 0s 0.5s ease-out, height 0s 0.5s ease-out;
-}
-.careerSlider {
-    z-index: 8;
-    background: #000;
-    position: fixed;
-    width: 100%;
-    height: 0;
-    opacity: 0;
-    transition: opacity 0.5s 2s ease-out, height 0s 2.5s ease-out;
-    -webkit-transition: opacity 0.5s 2s ease-out, height 0s 2.5s ease-out;
-}

@@ -25,5 +25,11 @@ $(function()
      }); 
 });
 
+$(document).ready(function(){
+    $("#ul-menu-list li").click(function () {
+        $('.box').hide().eq($(this).index()).show();  // hide all divs and show the current div
+    });
+});
+
 
 

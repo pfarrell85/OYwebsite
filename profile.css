@@ -8,6 +8,32 @@ body{
 	font-family: 'Proxima-Font';
 }
 
+h1, h5, h4, nav ul a, b {
+	color: #F45828 !important;
+
+}
+
+h5, .title{
+	font-size: 18px !important;;
+	color: #F45828 !important;
+}
+
+.btn {
+	background-color: #4F9938;
+}
+
+.card .card-title {
+	color: #F45828;
+	font-size: 16px !important;
+}
+
+.card {
+	border-radius: 5px;
+	height: auto;
+	background-color: #F7F7F7 !important;
+	height: 100%;
+	min-height: 300px;
+}
 /*mobile resposive navigation*/
 nav .button-collapse {
    	float: right;
@@ -52,10 +78,6 @@ nav ul a:hover{
 	color: black;
 }
 
-.carouselCont{
-	background-color:#b3b3b3;
-}
-
 .navLinks{
 	padding-top: 20px;
 }
@@ -64,13 +86,6 @@ nav ul a:hover{
     color: #f36c3f;
     font-weight: bold;
 }
-
-.carousel.carousel-slider {
-    top: -13px;
-    left: 0;
-    height: 0;
-}
-
 
 #imgHeader img{
   width: 100%;
@@ -123,35 +138,13 @@ footer.text{
 
 
 /*==================================Profile Style====================================*/
-/*#profilePic {
-	width: 300px;
-	height: 300px;
-}*/
+
 .profile {
 	background-color: white !important;
 }
-/*.container-profile {
-	background-color: white;
-}*/
-.card-title {
-	color: #F45828;
-}
-.card {
-	border-radius: 5px;
-	height: auto;
-	background-color: #F7F7F7 !important;
-	height: 100%;
-	min-height: 300px;
 
-}
 
-.btn {
-	background-color: #4F9938;
-}
 
-#formAvail {
-	/*display: inline-flex;*/
-}
 
 .career-nav{
 	font-size: 12px;
@@ -171,12 +164,4 @@ footer.text{
 	display: block;
 }
 
-.radioGroup label {
-  display: inline-block;
-  margin: 0 0.2em;
-  text-align: center;
-}
-.radioGroup label input[type="radio"] {
-	display: inline-block;
-  margin: 0.5em auto;
-}
+
