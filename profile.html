@@ -11,7 +11,7 @@
 <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 <link rel="stylesheet" type="text/css" href="assets/css/profile.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -23,16 +23,11 @@
     </a>
     </div> -->
     <div class="navLinks">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Messages</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down" id="nav-mobile" class="side-nav">
-        <li> <a href="#" id="toggle">Project Tracker</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#" id="toggle">My Career Plan</a></li>
-      </ul>
-      <ul class="right hide-on-med-and-down" id="nav-mobile" class="side-nav">
+      <ul class="right hide-on-med-and-down" id="ul-menu-list">
+        <li><a href="#" id="tabone">Profile</a></li>
+        <li><a href="#" id="tabtwo">Messages</a></li>
+        <li><a href="#" id="tabthree">Project Tracker</a></li>
+        <li><a href="#" id="tabfour">My Career Plan</a></li>
         <li><a href="#">Log Out</a></li>
       </ul>
     </div>
@@ -42,60 +37,95 @@
     <a href="#" data-activates="nav-mobile" class="button-collapse test"><i class="material-icons">menu</i></a>
   </div>
 </nav>
-<!-- ////////////////////END MOBILE NAVIGATION////////////////////////// -->
-  <div id="careerSlider">
-    <section class="career">
-      <div class="row">
-        <div class="col l12">
-          <!-- ROW ONE -->
-          <div class="header-career">
-            <div class="row">
-              <div class="col s12 m6 l12">
-                <h4 orange-text left-align>
-                  My Career Plan
-                </h4>
-              </div>
-            </div>
-          </div>  
 
-         
-        <!-- ROW TWO -->
+<!-- ////////////////////END MOBILE NAVIGATION////////////////////////// -->
+<!-- MY PROFILE -->
+<div id="box-one" class="box">
+    <section class="profile-main">
+      <div class="row">
+        <div class="col s12 m6 l12">
+          <!-- HEADER -->
+          <div class="row">
+            <div class="col s12 m6 l12">
+              <h4 class="left-align">Marlon Norris</h4>
+            </div>
+          </div>
+      
+        <!-- ROW ONE -->
           <div class="row">
             <!-- CARD ONE -->
-            <div class="col s12 m4 l4">
-              <div class="card white darken-1 left-align" id="cardShort">
-                <div class="card-content orange-text">
-                  <h5><bold>My Action Items</bold></h5>
-                  <ul class="black-text left-align">
-                    <li>Task 1: </li>
-                    <li>Task 2: </li>
-                    <li>Task 3:  </li> 
-                    </br>   
-                    <li>Completed Action Items</li>           
-                  </ul>
-                  <h5><bold>Skills Gained</bold></h5>
-                </div>
-              </div>
-            </div>
-            <!-- CARD TWO -->
-            <div class="col s12 m4 l4">
-              <div class="card white darken-1 left-align" id="cardShort">
-                <div class="card-content orange-text">
-                  <h5><bold>Resume & Portfolio</bold></h5>
-                  <ul class="black-text left-align">
-                    <li>School: </li>
+            <div class="col s12 m6 l4">
+              <div class="card white darken-1 left-align" id="cardLong">
+                <div class="card-content">
+                  <!-- PROFILE PICTURE -->
+                  <img class="responsive-img circle" src="assets/images/profile.png">
+                    <hr>
+                  <h5><b>Current Projects</b></h5>
+                  <ul class="black-text">
                     <li>Degree: </li>
-                    <li>Major:</li>               
+                    <li>Major:</li> 
+                    <li>Status</li>              
                   </ul>
-                  <h5><bold>Skills Gained</bold></h5>
-                </div>
-              </div>
-            </div>
-            <!-- CARD THREE -->  
-            <div class="col s12 m4 l4">
+                    <br><br>
+                  <div class="row">
+                    <div class="col s12">
+                      <a class="waves-effect waves-light center-align btn white-text">Accept Project</a>
+                    </div>
+                  </div> <!-- button end -->
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+  
+            <!-- CARD TWO -->
+            <div class="col s12 m4 14">
               <div class="card white darken-1 left-align" id="cardShort">
                 <div class="card-content">
-                  <h5>Career Goals</h5>
+                  <span class="card-title"><h4>My Profile</h4></span>
+                  <h5><b>Career Plan</b></h5>
+                  <ul class="black-text">
+                    <li>Career Tracks: </li>
+                    <li>Skills I have: </li>
+                    <li>Skills I want: </li>              
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Edit</a>
+                    </div>
+                  </div>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+
+            <!-- CARD THREE -->
+            <div class="col s12 m4 14">
+              <div class="card white darken-1 left-align" id="cardShort" >
+                <div class="card-content">
+                  <span class="card-title">&nbsp</span>
+                  <h5><b>Contact Card</b></h5>
+                  <ul class="black-text">
+                    <li>Bio:</li>
+                    <li>Location: </li>
+                    <li>Mos: </li>
+                    <li>Email:</li>
+                    <li>Phone Number:</li>
+                    <li>LinkIn:</li> 
+                    <li>Skype Username:</li>                
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Edit</a>
+                    </div>
+                  </div>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+          
+           <!-- ROW TWO -->
+            <!-- CARD FOUR -->
+            <div class="col s12 m4 l4" id="cardShort">
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <h5 class="title"><b>Past Projects</b></h5>
                   <ul class="black-text left-align">
                     <li>School: </li>
                     <li>Degree: </li>
@@ -105,162 +135,205 @@
                 </div> <!-- content end -->
               </div> <!-- card end -->
             </div> <!-- col end -->
-          </div> <!-- row end -->     
-        </div>
-      </div>
-    </section>
-  </div>
 
-      
+            <!-- CARD FIVE -->
+            <div class="col s12 m4 l4">
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <h5><b>Availability</b></h5>
+                  <ul>
+                      <li>Hrs Per Week: </li>
+                      <li>Months Available: </li>
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align" style="top: 300px;">Edit</a>
+                    </div>
+                  </div>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+          </div> <!-- row end -->
+</section>
+</div>
+
+
+<!-- ============================= MESSAGES ================================ -->
+<div id="box-two" class="box">Meesages</div>
+
+  
          
 <!-- ==============================PROJECT TRACKER ==================== -->
- 
- <!-- <div id="projectSlider">
-    projectT
-</div>  -->
- 
-<!-- ==============================MY PROFILE========================== -->
-  <div id="my-profile" style="max-width: 1000px;">
+<div id="box-three" class="box">Project Tracker</div>
+
+
+
+<!-- ============================MY CAREER PLAN============================== -->
+  <div id="box-four" class="box">
     <section class="profile-main">
       <div class="row">
         <div class="col s12 m6 l12">
-
+          <!-- HEADER -->
           <div class="row">
             <div class="col s12 m6 l12">
-              <h4 class="left-align">
-                Marlon Norris
-              </h4>
+              <h4 class="left-align" id="name-title">Marlon Norris</h4>
             </div>
           </div>
-      
-
-
-            <!-- ROW ONE -->
+        <!-- ROW ONE -->
           <div class="row">
             <!-- CARD ONE -->
             <div class="col s12 m6 l4">
-              <div class="card white darken-1 left-align" id="cardLong">
-                <div class="card-content orange-text">
-                    <!-- PROFILE PICTURE -->
-                  <img class="responsive-img circle" src="assets/images/profile.png">
-                    <hr>
-                  <h5><bold>Current Projects</bold></h5>
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <span class="card-title"><h4>My Career Plan</h4></span>
+                  <h5><b>My Action Items</b></h5>
                   <ul class="black-text">
-                    <li>Degree: </li>
-                    <li>Major:</li>               
+                    <li>Task 1: </li>
+                    <li>Task 2: </li> 
+                    <li>Task 3: </li>              
                   </ul>
-                    <br><br>
-                  <a class="waves-effect waves-light center-align btn"><i class="material-icons left"></i>Accept Project</a>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+            <!-- CARD TWO -->           
+            <div class="col s12 m6 l4">
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <span class="card-title">&nbsp</span>
+                  <h5><b>Resume & Portfolio</b></h5>
+                  <ul class="black-text">
+                    <li>Resume: </li>
+                    <li>Digital Portfolio: </li> 
+                    <li>linkedIn: </li>  
+                    <li>Expertise Blog: </li>  
+                    <li>Github: </li>  
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Edit</a>
+                    </div>
+                  </div>
                 </div> <!-- content end -->
               </div> <!-- card end -->
             </div> <!-- col end -->
   
-            <!-- CARD TWO -->
+            <!-- CARD THREE -->
             <div class="col s12 m4 14">
               <div class="card white darken-1 left-align" id="cardShort">
-                <div class="card-content orange-text">
-                  <!-- <span class="card-title"><h5>Marlon Norris</h5></span> -->
-                  <span class="card-title">Career Plan</span>
-                    <ul class="black-text">
-                      <li>Career Tracks: </li>
-                      <li>Skills I have: </li>
-                      <li>Skills I want: </li>              
-                    </ul>
+                <div class="card-content">
+                  <span class="card-title">&nbsp</span>
+                  <h5><b>Career Goals</b></h5>
+                  <p style="font-size: 14px;"><b>Career Tracks</b></p>
+                  <ul class="black-text">
+                    <li>1. ) </li>
+                    <li>2. ) </li>
+                    <li>3. ) </li>              
+                  </ul>
+                  <p style="font-size: 14px;"><b>Desired Industries</b></p>
+                  <ul class="black-text">
+                    <li>1. ) </li>
+                    <li>2. ) </li>
+                    <li>3. ) </li>             
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Edit</a>
+                    </div>
+                  </div>
                 </div> <!-- content end -->
               </div> <!-- card end -->
             </div> <!-- col end -->
 
-            <!-- CARD THREE -->
+            <!-- CARD FOUR -->
             <div class="col s12 m4 14">
               <div class="card white darken-1 left-align" id="cardShort" >
-                <div class="card-content orange-text">
-                  <span class="card-title">Contact Card</span>
-                    <ul class="black-text">
-                      <li>Bio:</li>
-                      <li>Location: </li>
-                      <li>Mos: </li>
-                      <li>Email:</li>
-                      <li>Phone Number:</li>
-                      <li>LinkIn:</li> 
-                      <li>Skype Username:</li>                
-                    </ul>
-                  </div> <!-- content end -->
-                </div> <!-- card end -->
-              </div> <!-- col end -->
-          
-
-           <!-- ROW TWO -->
-            <!-- CARD TWO -->
-            <div class="col s12 m4 l4">
-              <div class="card white darken-1 left-align" id="cardShort">
-                <div class="card-content orange-text">
-                  <h5><bold>Past Projects</bold></h5>
-                  <ul class="black-text left-align">
+                <div class="card-content">
+                  <h5><b>Education & Coursework</b></h5>
+                  <p style="font-size: 14px;"><b>Education</b></p>
+                  <ul class="black-text">
                     <li>School: </li>
                     <li>Degree: </li>
-                    <li>Major:</li>               
+                    <li>Major: </li>              
                   </ul>
-                  <h5><bold>Skills Gained</bold></h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- CARD FIVE -->
-            <div class="col s12 m4 l4" id="profile-card">
-              <div class="card white darken-1 left-align">
-                <div class="card-content orange-text">
-                  <h5>Availability</h5>
+                  <p style="font-size: 14px;"><b>Coursework</b></p>
                   <ul class="black-text">
-                    <li>Hours Per Week: </li>
-                    <li>Months Available: </li>
-                      <form action="#">
-                        <div class="row" style="display: inline-table;">
-
-                        <p style="display: inline-block;">
-                          <input name="group1" type="radio" id="test4"/>  
-                          <label for="test4">May</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Jun</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Jul</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Aug</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Sep</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Oct</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Nov</label>
-                        </p>
-                        <p>
-                          <input name="group1" type="radio" id="test4"/>
-                          <label for="test4">Dec</label>
-                        </p>
-                      </div>
-                    </form>         
+                    <li>Career: </li>
+                    <li>Course: </li>             
                   </ul>
-                </div>
-              </div>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Edit</a>
+                    </div>
+                  </div>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+          
+
+          <!-- ROW TWO -->
+            <!-- CARD FIVE -->
+            <div class="col s12 m4 l4" id="cardShort">
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <h5 class="title"><b>Skills</b></h5>
+                  <div class="row">
+                    <div class="col s12 m6 l6">
+                      <p style="font-size: 16px;"><b>Skills I have:</b></p>
+                    </div>
+                    <div class="col s12 m6 l6">
+                      <p style="font-size: 16px;"><b>Expertise Scale</b></p>
+                    </div>
+                  </div>
+                  <ul class="black-text left-align">
+                    <li>Web Development: </li>
+                    <li>Languages/CSS: </li>          
+                  </ul>
+                  <p style="font-size: 16px;"><b>Skills I want:</b></p>
+                  <ul class="black-text left-align">
+                    <li>Social Media: </li>
+                    <li>Writing: </li>
+                    <li>CSS: </li>               
+                  </ul>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
+            </div> <!-- col end -->
+
+            <!-- CARD SIX -->
+            <div class="col s12 m4 l4">
+              <div class="card white darken-1 left-align" id="cardShort">
+                <div class="card-content">
+                  <h5><b>Journal</b></h5>
+                  <p style="font-size: 16px;"><b>Building Connections</b></p>
+                  <ul>
+                    <li>My informational interviews</li>
+                    <li>Networking</li>
+                  </ul>
+                  <p><b>My Mentor Notes</b></p>
+                  <p><b>Becoming Competitive</b></p>
+                  <ul>
+                    <li>My informational interviews</li>
+                    <li>Networking</li>
+                  </ul>
+                  <div class="row">
+                    <div class="col s12 right-align">
+                      <a href="" class="right-align">Update</a>
+                    </div>
+                  </div>
+                </div> <!-- content end -->
+              </div> <!-- card end -->
             </div> <!-- col end -->
           </div> <!-- row end -->
+    </section>
+  </div>
 
-       </div>
-       </div>
-          <br><br>
-<!-- =============================CAREER=================================== -->
-<!-- <a href="#" id="toggle">Career</a> -->
+
+
+ 
+ 
+<!-- ============================== LOG OUT ========================== -->
+    
+         
+
 
 
 
@@ -268,13 +341,28 @@
     <footer class="page-footer grey darken-1">
       <div class="container">
         <div class="row">
-          <div class="col s12 m6">
-            <ul class="tabs grey darken-1 .tabs-fixed-width">
-              <li class="tab col s3"><a class="white-text" href="#test1">About</a></li>
-              <li class="tab col s3"><a class="white-text" href="#test2">FAQ</a></li>
-              <li class="tab col s3"><a class="white-text" href="#test3">Career</a></li>
-              <li class="tab col s3"><a class="white-text" href="#test4">Contact</a></li>
-              <li class="tab col s3"><a class="white-text" href="#test4">Privacy Policy</a></li>
+          <div class="col s12 m6 l12">
+            <ul class="tabs grey darken-1 .center-align">
+              <li class="tab col s2"><a class="white-text" href="#test1">About</a></li>
+              <li class="tab col s2"><a class="white-text" href="#test2">FAQ</a></li>
+              <li class="tab col s2"><a class="white-text" href="#test3">Career</a></li>
+              <li class="tab col s2"><a class="white-text" href="#test4">Contact</a></li>
+              <li class="tab col s2"><a class="white-text" href="#test4">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l12">
+            <ul class="icons">
+              <li class="tab col s2"><a id="ig" href="#"><img src="assets/images/socialMedia_10.png" style="height: 48px; width: 48px;"></a></li>
+
+              <li class="tab col s2"><a class="white-text" id="twitter" href="#test2"><img src="assets/images/socialMedia_12.png" style="height: 48px; width: 48px;"></a></li>
+
+              <li class="tab col s2"><a class="white-text" id="facebook" href="#test3"><img src="assets/images/socialMedia_07.png" style="height: 48px; width: 48px;"></a></li>
+
+              <li class="tab col s2"><a class="white-text" id="linkedin" href="#test4"><img src="assets/images/socialMedia_05.png" style="height: 48px; width: 48px;"></a></li>
+
+              <li class="tab col s2"><a class="white-text" id="facebook" href="#test4"><img src="assets/images/socialMediaOne.png" style="height: 48px; width: 48px;"></a></li>
             </ul>
           </div>
         </div>
