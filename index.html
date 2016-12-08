@@ -42,7 +42,7 @@
             <div class="row">
               <div class="col s12 m6 hrLine">
                 <img src="assets/images/icons/desk.png" width="150px" height="155px"><br>
-                <a class="btn-large green darken-3 btnsize navModalsLinks" id="startInternship">START MY INTERNSHIP</a>
+                <a href="#veteranSignUp" class="btn-large green darken-3 btnsize navModalsLinks modal-trigger" id="veteranSignUp">START MY INTERNSHIP</a>
               </div>
               <div class="col s12 m6">
                 <img src="assets/images/icons/signUpIcon.png" width="150px" height="155px">
@@ -82,7 +82,38 @@
             </div>
         </div>
         </div> 
-        <!-- END LOG MODAL -->
+        <!-- END LOG IN MODAL -->
+        <!-- START LOGIN IN VETERAN -->
+        <div id="veteranSignUp" class="modal navModals right">
+
+            <div class="row">
+              <div class="col s12 m12">
+                <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
+              </div>  
+              <div class="row">
+                <form class="formCont col s12 m12">
+                  <div class="row">
+                    <div class="col s12 m12">
+                      <label for="email">Your Email:<span class="tomato">*</span></label>               
+                      <input id="email" type="text" class="validate"><br>
+                      <label for="firstName">First Name:<span class="tomato">*</span></label>               
+                      <input id="firstName" type="text" class="validate"><br>
+                      <label for="lastName">Last Name:<span class="tomato">*</span></label>               
+                      <input id="lastName" type="text" class="validate"><br>
+                      <label for="password">Password:<span class="tomato">*</span></label>               
+                      <input id="password" type="password" class="validate"><br>
+                      <label for="confirmPassword">Confirm Password:<span class="tomato">*</span></label>               
+                      <input id="confirmPassword" type="password" class="validate"><br>
+
+                      <span class="darkGrey requiredLogin right"><span class="tomato">*</span> required</span>
+                    </div>              
+                    <!-- SUBMIT BUTTON -->                    
+                    <button class="btn tomatoBG" id="submitLogin">LOGIN</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
       </ul>
   </div>
 
