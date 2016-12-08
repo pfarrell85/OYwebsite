@@ -20,30 +20,32 @@ body{
     margin: auto;
 }
 
-h1, h5, h4, nav ul a {
-    color: #F45828 !important;
+.title, h5, nav ul a, a {color: #F45828 !important;}
+ul li, p, #page-title {color: #5d5d5d;}
 
-}
-
-h5, .title, a{
-    font-size: 20px !important;;
+.title, h5, nav ul a, a {
     color: #F45828 !important;
+    font-size: 20px !important;
     font-weight: 500;
 }
+
+/*h5, .title{
+    font-size: 20px !important;;
+    font-weight: 500;
+}*/
 
 a {
     font-size: 14px !important;
 }
 
-h5, p {
+h5, h4, p {
     letter-spacing: 2px;
-    line-height: 1em;
+    line-height: .8em;
 }
 
 ul li {
     letter-spacing: .5px;
     color: #5d5d5d;
-/*    line-height: 1.5em;*/
 }
 
 #logo{
@@ -52,12 +54,27 @@ ul li {
 }
 
 #logo img{
-    margin-top: 5px;
+    margin-top: 12px;
     padding:0px;
 }
 
 #name-title{
     margin: 5px !important;
+    font-weight: 400;
+}
+
+#page-title {
+    margin-bottom:1px;
+}
+.card-title, h4{
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: none !important;
+}
+div .wrapper{
+    min-height: 290px !important;
+    margin:0;
+    padding: 0px;
 }
 /*======================mobile resposive navigation========================*/
 nav .button-collapse {
@@ -111,7 +128,15 @@ nav ul a:hover{
 }
 
 #ul-menu-list{
-    padding-top: 30px !important; 
+    padding-top: 25px !important; 
+    overflow: hidden;
+    height: auto;
+
+}
+
+nav ul a {
+    overflow: hidden;
+    height:50px;
 }
 
 
@@ -193,9 +218,6 @@ footer.text{
 
 /*==================================Profile Style====================================*/
 
-h4, {
-	color: #f36c3f !important;;
-}
 .profile {
 	background-color: white !important;
 }
