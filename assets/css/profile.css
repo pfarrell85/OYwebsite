@@ -35,10 +35,31 @@ a {
     font-size: 14px !important;
 }
 
+h5, p {
+    letter-spacing: 2px;
+    line-height: 1em;
+}
+
+ul li {
+    letter-spacing: .5px;
+    color: #5d5d5d;
+/*    line-height: 1.5em;*/
+}
+
+#logo{
+  width: 100%;
+  height: auto;
+}
+
+#logo img{
+    margin-top: 5px;
+    padding:0px;
+}
+
 #name-title{
     margin: 5px !important;
 }
-/*mobile resposive navigation*/
+/*======================mobile resposive navigation========================*/
 nav .button-collapse {
    	float: right;
     position: relative;
@@ -46,7 +67,6 @@ nav .button-collapse {
     height: 56px;
     margin: 0 18px;
 }
-
 
 .brand-logo img{
 	width: 90px;
@@ -64,14 +84,15 @@ nav li  {
     font-size: 14px;
     color: #f36c3f;
     display: block; 
-/*    padding: 0 15px;*/
+    padding: 0 15px;
     cursor: pointer;
     font-weight: bold;
 }
 
 nav ul a {
     transition: background-color .3s;
-    font-size: 14px;
+    font-size: 20px !important;
+    letter-spacing: .5px;
     color: #f36c3f;
     display: block; 
     padding: 0 15px;
@@ -87,21 +108,12 @@ nav ul a:hover{
 
 .navlinks {
 	text-decoration: none;
-	font-size: 22px;
-	color: black;
-	padding-top: 20px;
 }
 
-
-#imgHeader img{
-  width: 100%;
-  height: auto;
+#ul-menu-list{
+    padding-top: 30px !important; 
 }
 
-#imgHeader{
-	margin-top:-13px;
-	padding:0px;
-}
 
 .indexH2Tomato{
 	font-size: 35px;
@@ -145,7 +157,13 @@ footer.text{
     display: inline-block;
     width: 48px;
     height: 48px;
+    padding: 10px 40px;
 
+}
+
+.container-footer{
+    width: 100%;
+    margin:auto;
 }
 
 /*#ig {
@@ -190,13 +208,13 @@ h4, {
 	height: 100%;
 }
 
-.btn {
-	background-color: #4F9938;
+.card .card-content a {
+    bottom: 0px !important;
+    
 }
 
-.career-nav{
-	font-size: 12px;
-	
+.btn {
+	background-color: #4F9938;
 }
 
 #cardShort {

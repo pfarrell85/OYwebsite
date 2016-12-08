@@ -37,6 +37,7 @@ $(function(){
     $("#box-two").hide();
     $("#box-three").hide();
     $("#box-four").hide();
+    $("#box-five").hide();
 
     $('.preview').on('click', function(){
         $('#box-two', '#box-three', '#box-four').toggle();
