@@ -22,8 +22,8 @@ $( "#logIn" ).click(function() {
     $('.modal').modal();
 });
 
-$( "#startInternship" ).click(function() {
-    alert("test");
+$( "#veteranSignUp" ).click(function() {
+    $('.modal').modal();
 });
 
 
