@@ -6,7 +6,7 @@
 body{
 	width: 100%
 	max-width:1000px;
-	background-color: #f7f7f7;
+	background-color: #fff !important;
 	font-family: 'Proxima-Font';
     font-size: 16px;
     text-align: center;
@@ -19,26 +19,24 @@ body{
     max-width: 1200px;
     margin: auto;
 }
+/*================================Master Style================================*/
+h2, nav ul a, a, .title, .card-title, #badge, #CL {color: #F45828 !important;}
 
-.title, h5, nav ul a, a {color: #F45828 !important;}
 ul li, p, #page-title {color: #5d5d5d;}
 
-.title, h5, nav ul a, a {
+.btn {background-color: #4F9938;}
+
+.title, h2, nav ul a, a {
     color: #F45828 !important;
     font-size: 20px !important;
     font-weight: 500;
 }
 
-/*h5, .title{
-    font-size: 20px !important;;
-    font-weight: 500;
-}*/
+h3{font-size: 18px;}
 
-a {
-    font-size: 14px !important;
-}
+a {font-size: 14px !important;}
 
-h5, h4, p {
+h2, h1, p {
     letter-spacing: 2px;
     line-height: .8em;
 }
@@ -47,7 +45,7 @@ ul li {
     letter-spacing: .5px;
     color: #5d5d5d;
 }
-
+/*================================Logo Style================================*/
 #logo{
   width: 100%;
   height: auto;
@@ -56,6 +54,46 @@ ul li {
 #logo img{
     margin-top: 12px;
     padding:0px;
+}
+/*================================CARD CONTENT================================*/
+.card {
+    border-radius: 5px;
+    background-color: #F7F7F7 !important;
+    height: 100%;
+    width: 100%;
+}
+
+.card .card-content a {
+    bottom: 0px !important;
+    
+}
+/*controls card height*/
+#card-short {
+    max-height: 422px;
+    min-height: 422px;
+}
+
+#card-long {
+    min-height: 850px !important;
+}
+
+#card-transparent{
+    background-color: transparent !important;
+    border: solid 0px transparent !important;
+    box-shadow: none !important;
+}
+
+div .wrapper{
+    min-height: 300px !important;
+    margin:0;
+    padding: 0px;
+}
+
+/*card title styling*/
+.card-title, h1{
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: none !important;
 }
 
 #name-title{
@@ -66,16 +104,7 @@ ul li {
 #page-title {
     margin-bottom:1px;
 }
-.card-title, h4{
-    margin-top: 4px;
-    font-size: 30px;
-    font-weight: none !important;
-}
-div .wrapper{
-    min-height: 290px !important;
-    margin:0;
-    padding: 0px;
-}
+
 /*======================mobile resposive navigation========================*/
 nav .button-collapse {
    	float: right;
@@ -83,6 +112,12 @@ nav .button-collapse {
     z-index: 1;
     height: 56px;
     margin: 0 18px;
+}
+
+/*RESPONSIVE IMAGES*/
+.resp img{
+    width: 100%;
+    height: auto;
 }
 
 .brand-logo img{
@@ -108,13 +143,14 @@ nav li  {
 
 nav ul a {
     transition: background-color .3s;
-    font-size: 20px !important;
+    font-size: 18px !important;
     letter-spacing: .5px;
     color: #f36c3f;
     display: block; 
     padding: 0 15px;
     cursor: pointer;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav ul a:hover{
@@ -138,30 +174,9 @@ nav ul a {
     overflow: hidden;
     height:50px;
 }
-
-
-.indexH2Tomato{
-	font-size: 35px;
-	color: #f36c3f;
-	font-weight: bold;
-}
-
-/*.iconSections{
-	padding: 10px;
-	margin: 10px;
-	min-height: 500px;
-}*/
-
-.indexH2Grey{
-	font-size: 27px;
-	color: #5d5d5d;
-	font-weight: bold;
-}
-
-/*RESPONSIVE IMAGES*/
-.resp img{
-	width: 100%;
-	height: auto;
+/*================================FOOTER================================*/
+footer{
+    color: #fff;
 }
 
 footer.page-footer {
@@ -190,73 +205,3 @@ footer.text{
     width: 100%;
     margin:auto;
 }
-
-/*#ig {
-    background:url(../images/socialMedia_10.png) no-repeat center center;
-    background-size: cover; 
-
-}
-
-#linkedin {
-    background:url(../images/socialMedia_05.png) no-repeat center center;
-    background-size: cover; 
-
-}
-
-#facebook {
-    background:url(../images/socialMedia_07.png) no-repeat center center;
-    background-size: cover; 
-
-}
-
-#twitter {
-    background:url(../images/socialMedia_12.png) no-repeat center center;
-    background-size: cover; 
-
-}*/
-
-
-/*==================================Profile Style====================================*/
-
-.profile {
-	background-color: white !important;
-}
-.card-title {
-	color: #F45828;
-}
-.card {
-	border-radius: 5px;
-	background-color: #F7F7F7 !important;
-	height: 100%;
-}
-
-.card .card-content a {
-    bottom: 0px !important;
-    
-}
-
-.btn {
-	background-color: #4F9938;
-}
-
-#cardShort {
-	max-height: 400px;
-	min-height: 400px
-}
-
-#cardLong {
-	min-height: 822px !important;
-}
-
-/*.input-field label {
-	font-size: 14px;
-	color: black !important;
-	position: initial !important;
-	font-weight: none !important;
-}
-input{
-	background-color: black !important;
-}*/
-
-/*==========================TABS==========================*/
-

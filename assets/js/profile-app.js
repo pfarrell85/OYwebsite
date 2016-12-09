@@ -26,7 +26,7 @@ $(document).ready(function(){
 // });
 
 $(document).ready(function(){
-    $('#box-four').hide
+    // $('#box-four').hide
     $("#ul-menu-list li").click(function () {
         $('.box').hide().eq($(this).index()).show();  // hide all divs and show the current div
     });
@@ -38,9 +38,10 @@ $(function(){
     $("#box-three").hide();
     $("#box-four").hide();
     $("#box-five").hide();
+    $("#box-six").hide();
 
     $('.preview').on('click', function(){
-        $('#box-two', '#box-three', '#box-four').toggle();
+        $('#box-two', '#box-three', '#box-four', '#box-five', '#box-six').toggle();
     });
 
 });
