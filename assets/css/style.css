@@ -188,14 +188,44 @@ form.formCont.col.s12.m12{
 	font-weight: bold;
 }
 
-#imgHeader img{
+#veteransHeaderOne img{
   width: 100%;
   height: auto;
 }
 
-#imgHeader{
+#veteransHeaderOne{
 	margin-top:-13px;
 	padding:0px;
+}
+
+#veteransHeaderTwo{
+	margin-top:-13px;
+	padding:0px;
+}
+
+#veteransHeaderTwo img{
+  width: 100%;
+  height: auto;
+}
+
+#companiesHeaderOne{
+	margin-top:-13px;
+	padding:0px;
+}
+
+#companiesHeaderOne img{
+  width: 100%;
+  height: auto;
+}
+
+#companiesHeaderTwo{
+	margin-top:-13px;
+	padding:0px;
+}
+
+#companiesHeaderTwo img{
+  width: 100%;
+  height: auto;
 }
 
 /*SECTIONS*/
@@ -208,9 +238,9 @@ form.formCont.col.s12.m12{
 
 .containerIcons{
 	width: 990px;
-	height: auto;
+	height: 490px;
 	margin: 0 auto;
-	background-color: red;
+/*	background-color: red;*/
 }
 
 .containerIcons img{
@@ -231,6 +261,27 @@ form.formCont.col.s12.m12{
 	border-style: solid;
 	padding: 10px;
 
+}
+
+.partners{
+	height: auto;
+ 	border: 1px solid #979797;
+
+
+}
+
+.seventyFiveWidth {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.socialIcons img{
+	width: 40px;
+	margin-right: -50px;
+}
+
+.socialIcons{
+	margin: 0 auto;
 }
 
 
