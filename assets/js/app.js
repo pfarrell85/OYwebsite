@@ -15,7 +15,7 @@ function getHeader() {
 
   //Add images here
   var imagesH2 = 
-  ["assets/images/bannerImage.png", "assets/images/bannerImageTwo.png"];
+ ["assets/images/OweYaaSoldier.jpg", "assets/images/militaryWife.png"];
 
   var randomImagesH2 = imagesH2[Math.floor(Math.random()* imagesH2.length)];
   console.log("Random Image src: ", randomImagesH2);

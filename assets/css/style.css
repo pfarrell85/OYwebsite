@@ -149,6 +149,11 @@ form.formCont.col.s12.m12{
     font-size: 14px;
 }
 
+/*.bannerButton{
+	position: absolute;
+	float: right;
+}*/
+
 /*COLORS*/
 .tomato{
 	color: #f36c3f;
@@ -265,9 +270,11 @@ form.formCont.col.s12.m12{
 
 .partners{
 	height: auto;
- 	border: 1px solid #979797;
+}
 
-
+.partners img {
+    height: 80px;
+    padding-right: 32px;
 }
 
 .seventyFiveWidth {
