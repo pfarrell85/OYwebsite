@@ -45,3 +45,31 @@ $(function(){
     });
 
 });
+
+// JOURNAL MODAL 
+$('.journal-modal').modal({
+    dismissible: true, // Modal can be dismissed by clicking outside of the modal
+    opacity: .7, // Opacity of modal background
+    in_duration: 300, // Transition in duration
+    out_duration: 200, // Transition out duration
+    starting_top: '4%', // Starting top style attribute
+    ending_top: '4%', // Ending top style attribute
+    }
+); //END 
+
+// CAREER MODAL 
+$('.careergoals-modal').modal({
+    dismissible: true, // Modal can be dismissed by clicking outside of the modal
+    opacity: .7, // Opacity of modal background
+    in_duration: 300, // Transition in duration
+    out_duration: 200, // Transition out duration
+    starting_top: '2%', // Starting top style attribute
+    ending_top: '2%', // Ending top style attribute
+    }
+); //END MODAL
+
+$('#modal-close').on('click', function() {
+    $('#modal1').modal('close');
+    $('#modal2').modal('close');
+    // $('#login').webuiPopover('hide');
+})

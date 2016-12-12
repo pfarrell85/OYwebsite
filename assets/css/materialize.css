@@ -4818,7 +4818,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: #fff;
   will-change: left, right;
 }
 

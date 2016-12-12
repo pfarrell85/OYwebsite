@@ -4818,7 +4818,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #f6b2b5;
+  background-color: #fff;
   will-change: left, right;
 }
 
@@ -7704,7 +7704,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #fff;
 }
 
 .carousel {

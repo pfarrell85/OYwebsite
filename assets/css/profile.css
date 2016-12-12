@@ -20,11 +20,16 @@ body{
     margin: auto;
 }
 /*================================Master Style================================*/
-h2, nav ul a, a, .title, .card-title, #badge, #CL {color: #F45828 !important;}
+h2, nav ul a, a, .title, .card-title, #badge, #CL, p{color: #F45828 !important;}
 
-ul li, p, #page-title {color: #5d5d5d;}
+ul li, #page-title {color: #5d5d5d;}
 
 .btn {background-color: #4F9938;}
+
+.btn-large{
+    background-color: #F45828 !important;
+    color: #fff !important;
+}
 
 .title, h2, nav ul a, a {
     color: #F45828 !important;
@@ -36,7 +41,7 @@ h3{font-size: 18px;}
 
 a {font-size: 14px !important;}
 
-h2, h1, p {
+h2, h1 {
     letter-spacing: 2px;
     line-height: .8em;
 }
@@ -198,10 +203,24 @@ footer.text{
     width: 48px;
     height: 48px;
     padding: 10px 40px;
-
 }
 
 .container-footer{
     width: 100%;
     margin:auto;
+}
+
+.journal-modal, .careergoals-modal{
+    width: 90%;
+    height: 100%;
+  /*  overflow: hidden;*/
+    min-width: 500px !important;
+    min-height: 900px !important;
+    margin-bottom: 5%;
+
+}
+
+.careergoals-modal input, .journal-modal{
+    margin-bottom: 8px;
+    height: 2rem
 }
