@@ -4,7 +4,8 @@ function getHeader() {
   //VETERANS PAGE HEADERS
   //Add images here
   var imagesH1 = 
-  ["assets/images/OweYaaSoldier.jpg", "assets/images/militaryWife.png"];
+  ["assets/images/veteransBanners/OweYaaSoldier.jpg", "assets/images/veteransBanners/militaryWife.png",
+    "assets/images/veteransBanners/veteranBannerAdriana.png"];
 
   var randomImagesH1 = imagesH1[Math.floor(Math.random()* imagesH1.length)];
   console.log("Random Image src: ", randomImagesH1);
@@ -15,7 +16,8 @@ function getHeader() {
 
   //Add images here
   var imagesH2 = 
-  ["assets/images/bannerImage.png", "assets/images/bannerImageTwo.png"];
+ ["assets/images/veteransBanners/OweYaaSoldier.jpg", "assets/images/veteransBanners/militaryWife.png",
+  "assets/images/veteransBanners/veteranBannerAdriana.png"];
 
   var randomImagesH2 = imagesH2[Math.floor(Math.random()* imagesH2.length)];
   console.log("Random Image src: ", randomImagesH2);
@@ -27,7 +29,7 @@ function getHeader() {
   //COMPANIES PAGE HEADERS
   //Add images here
   var companiesImagesH1 = 
-  ["assets/images/bannerImage.png", "assets/images/bannerImageTwo.png"];
+  ["assets/images/companiesBanners/bannerImage.png", "assets/images/companiesBanners/bannerImageTwo.png"];
 
   var companiesRanImagesH1 = companiesImagesH1[Math.floor(Math.random()* companiesImagesH1.length)];
   console.log("Random Image src: ", companiesRanImagesH1);
@@ -38,7 +40,7 @@ function getHeader() {
 
   //Add images here
   var companiesImagesH2 = 
-  ["assets/images/bannerImage.png", "assets/images/bannerImageTwo.png"];
+  ["assets/images/companiesBanners/bannerImage.png", "assets/images/companiesBanners/bannerImageTwo.png"];
 
   var companiesRanImageH2 = companiesImagesH2[Math.floor(Math.random()* companiesImagesH2.length)];
   console.log("Random Image src: ", companiesRanImageH2);

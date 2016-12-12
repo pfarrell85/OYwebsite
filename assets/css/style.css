@@ -149,6 +149,11 @@ form.formCont.col.s12.m12{
     font-size: 14px;
 }
 
+/*.bannerButton{
+	position: absolute;
+	float: right;
+}*/
+
 /*COLORS*/
 .tomato{
 	color: #f36c3f;
@@ -161,6 +166,10 @@ form.formCont.col.s12.m12{
 .darkGrey{
 	color: #5d5d5d;
 }
+
+.mediumGrey{
+	background-color: #b3b3b3;
+}
 /*LOGO*/
 
 .logo{
@@ -168,6 +177,12 @@ form.formCont.col.s12.m12{
 	position: relative;
 	height: 95px;
 	width: 95px;
+}
+
+.whiteText{
+	color:#f5a68c;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 /*HEADERS IMG AND FONTS*/
@@ -265,9 +280,20 @@ form.formCont.col.s12.m12{
 
 .partners{
 	height: auto;
- 	border: 1px solid #979797;
+}
 
+.partners img {
+    height: 80px;
+    padding-right: 32px;
+}
 
+.companies{
+	height: auto;
+}
+
+.companies img {
+    height: 80px;
+    padding-right: 32px;
 }
 
 .seventyFiveWidth {
