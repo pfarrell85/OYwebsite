@@ -154,6 +154,11 @@ form.formCont.col.s12.m12{
 	float: right;
 }*/
 
+.minHeight{
+	min-height: 600px;
+	margin-top: -13px;
+}
+
 /*COLORS*/
 .tomato{
 	color: #f36c3f;
@@ -180,7 +185,7 @@ form.formCont.col.s12.m12{
 }
 
 .whiteText{
-	color:#f5a68c;
+	color:#FFF;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -201,6 +206,16 @@ form.formCont.col.s12.m12{
 	font-size: 27px;
 	color: #5d5d5d;
 	font-weight: bold;
+}
+
+#aboutBanner img{
+  width: 100%;
+  height: auto;
+}
+
+#aboutBanner{
+	margin-top:-13px;
+	padding:0px;
 }
 
 #veteransHeaderOne img{

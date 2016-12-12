@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Military Talent for Growing Businesses</title>
+</head>
+<!-- Materialize CSS -->
+<link rel="stylesheet" type="text/css" href="assets/css/materialize.css">     
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body>
+
+
+<!-- =================!!!NAVIGATION!!!======================= -->
+
+<!-- FIX LOGO AND MENU BAR FOR RESPONSIVENESS -->
+<nav class="navStlye" role="navigation">
+  <div class="nav-wrapper container">
+  <div class="logo"><a href="index.html">
+    <img src="assets/images/logoOrange.png" class="logoimg">
+  </a></div>
+  <div class="navLinks">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">FOR VETERANS</a></li>
+        <li><a href="companiesIndex.html">FOR COMPANIES</a></li>
+        <!-- SIGN UP MODALS -->
+        <li id="signUp"><a href="#signUpModal" class="modal-trigger">SIGN UP</a></li>
+        <div id="signUpModal" class="modal navModals right">
+        <!-- Added modal content to be able to .empty() to replace that modal with the sign up form? -->
+          <div id="modalContent">
+            <div class="row">
+              <div class="col s12 m12">
+                <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
+                <p>Let us know if you are a <b>company</b> looking to <b>submit</b> a <b>project for a veteran</b> or a <b>military veteran</b> or <b>spouse</b> seeking an <b>internship to gain skills:</b></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s12 m6 hrLine">
+                <img src="assets/images/icons/desk.png" width="150px" height="155px"><br>
+                <a href="#veteranSignUp" class="btn-large green darken-3 btnsize navModalsLinks modal-trigger" id="veteranSignUp">START MY INTERNSHIP</a>
+              </div>
+              <div class="col s12 m6">
+                <img src="assets/images/icons/signUpIcon.png" width="150px" height="155px">
+                <a class="btn-large grey btnsize navModalsLinks" id="signUpForm">SUBMIT A<BR>PROJECT</a>
+              </div>
+              <div class="col s12 m12">
+                <p>Already have an account?<br><a href="#logIn" class="signupHover">Log in here</a></p>
+              </div>
+            </div>            
+          </div>
+        </div> 
+        <!-- END SIGN UP MODAL -->
+
+        <!-- LOG IN MODAL -->
+        <li id="logIn"><a href="#logIn" class="modal-trigger">LOG IN</a></li>
+        <div id="logIn" class="modal navModals right">
+
+            <div class="row">
+              <div class="col s12 m12">
+                <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
+              </div>  
+              <div class="row">
+                <form class="formCont col s12 m12">
+                  <div class="row">
+                    <div class="col s12 m12">
+                      <label for="email">Email:<span class="tomato">*</span></label>               
+                      <input id="email" type="text" class="validate"><br>
+                      <label for="password">Password:<span class="tomato">*</span></label>               
+                      <input id="password" type="text" class="validate"><br>
+                      <span class="darkGrey requiredLogin right"><span class="tomato">*</span> required</span>
+                    </div>              
+                    <!-- SUBMIT BUTTON -->                    
+                    <button class="btn tomatoBG" id="submitLogin">LOGIN</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+        </div> 
+        <!-- END LOG IN MODAL -->
+        <!-- START LOGIN IN VETERAN -->
+        <div id="veteranSignUp" class="modal navModals right">
+
+            <div class="row">
+              <div class="col s12 m12">
+                <i class="medium material-icons modal-action modal-close right closeBTN">clear</i><br>
+              </div>  
+              <div class="row">
+                <form class="formCont col s12 m12">
+                  <div class="row">
+                    <div class="col s12 m12">
+                      <label for="email">Your Email:<span class="tomato">*</span></label>               
+                      <input id="email" type="text" class="validate"><br>
+                      <label for="firstName">First Name:<span class="tomato">*</span></label>               
+                      <input id="firstName" type="text" class="validate"><br>
+                      <label for="lastName">Last Name:<span class="tomato">*</span></label>               
+                      <input id="lastName" type="text" class="validate"><br>
+                      <label for="password">Password:<span class="tomato">*</span></label>               
+                      <input id="password" type="password" class="validate"><br>
+                      <label for="confirmPassword">Confirm Password:<span class="tomato">*</span></label>               
+                      <input id="confirmPassword" type="password" class="validate"><br>
+
+                      <span class="darkGrey requiredLogin right"><span class="tomato">*</span> required</span>
+                    </div>              
+                    <!-- SUBMIT BUTTON -->                    
+                    <button class="btn tomatoBG" id="submitLogin">LOGIN</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </ul>
+  </div>
+
+<!-- =================!!!MOBILE NAVIGATION!!!======================= -->
+<!-- FIX MOBILE NAVIGATION LINKS -->
+    <a href="#" data-activates="nav-mobile" class="button-collapse test"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+<!-- =================!!!END NAVIGATION!!!======================= -->
+
+<!-- =================!!!CONTENT!!!======================= -->
+
+<!-- =================!!!END CONTENTN!!!======================= -->
+
+
+<!-- =================!!!FOOTER!!!======================= -->
+  <footer class="page-footer text">
+      <div class="row">
+      <div class="row">
+        <div class="col s12 m12">
+        <a href="about.html" target="_self" class="whiteText">About</a>
+        <a href="faq.html" target="_self" class="whiteText">FAQ</a>
+        <a href="careers.html" target="_self" class="whiteText">Careers</a>
+        <a href="contact.html" target="_self" class="whiteText">Contact</a>
+        <a href="privacy.html" target="_self" class="whiteText">Privacy</a>
+        <a href="policy.html" target="_self" class="whiteText">Policy</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12">
+            <div class="socialIcons">
+                  <img src="assets/images/socialMedia_10.png">
+                  <img src="assets/images/socialMedia_12.png">
+                  <img src="assets/images/socialMediaOne.png">
+                  <img src="assets/images/socialMedia_05.png">
+                  <img src="assets/images/socialMedia_07.png"> 
+            </div>           
+        </div>
+      </div>
+  </footer>
+
+<!-- =================!!!END FOOTER!!!======================= -->
+
+<!-- =================!!!SCRIPTS!!!======================= -->
+<!-- JQuery -->  
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+</script>
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<!-- Javascript -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+</body>
+</html>
