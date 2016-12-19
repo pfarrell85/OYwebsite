@@ -167,11 +167,74 @@
                 <div class="card-content">
                   <div class="wrapper">
                     <h2><b>Availability</b></h2>
-                    <ul>
-                        <li>Hrs Per Week: </li>
-                        <li>Months Available: </li>
+                    <h3>Hours per week: </h3>
+                    <h3>Months Available: </h3>
+                <div class="row">
+                  <div class="col s12 m6 l12">
+                    <ul class="black-text left-align">
+                      <form>
+                      <div class="row">
+                      <div class="col s12 m3 l6 left-align">
+                        <li><p style="margin-bottom:6px">
+                          <input class="with-gap" name="group1" type="radio" id="test1"/>
+                          <label for="test1">Jan</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group2" type="radio" id="test2"/>
+                          <label for="test2">Feb</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group3" type="radio" id="test3"/>
+                          <label for="test3">Mar</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group4" type="radio" id="test4"/>
+                          <label for="test4">Apr</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group5" type="radio" id="test5"/>
+                          <label for="test5">May</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group6" type="radio" id="test6"/>
+                          <label for="test6">Jun</label>
+                        </li></p>
+                      </div>
+                  
+                      <div class="col s12 m3 l6 right-align" style="display: inline-block;">
+                        <li><p>
+                          <input class="with-gap" name="group7" type="radio" id="test7"/>
+                          <label for="test7">Jul</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group8" type="radio" id="test8"/>
+                          <label for="test8">Aug</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group9" type="radio" id="test9"/>
+                          <label for="test9">Sep</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group10" type="radio" id="test10"/>
+                          <label for="test10">Oct</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group11" type="radio" id="test11"/>
+                          <label for="test11">Nov</label>
+                        </p></li><br>
+                        <li><p>
+                          <input class="with-gap" name="group12" type="radio" id="test12"/>
+                          <label for="test12">Dec</label>
+                        </p></li>
+                      </div>
+                      </div>
+                      </form>
                     </ul>
                   </div>
+                </div>
+              </div>
+              </div>
+              </div></div>
                   <div class="row">
                     <div class="col s12 right-align">
                       <a href="" class="right-align" style="top: 300px;">Edit</a>
@@ -285,7 +348,7 @@
                   </div><!-- row end -->
                   <div class="row">
                     <div class="col s12 right-align">
-                      <a href="" class="right-align">Edit</a>
+                      <a href="#modal3" id="project-modal" class="project-modal">Edit</a>
                     </div>
                   </div>
                 </div> <!-- content end -->
@@ -489,6 +552,79 @@
     </section>
   </div> <!-- CAREER PLAN END -->
 
+<!-- ===============================MODALS============================= -->
+  <div id="modal3" class="modal project-modal">
+    <div class="modal-content">
+      <div class="row">
+        <div class="col s12 m6 l12">
+        <!-- Title -->
+          <div class="row">
+          <div class="col s12 m6 l12">
+            <span class="card-title center-align"><h1><b>Task & Hour Tracker</b></h1></span>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col s12 m6 l12">
+          <p>Task 1) Twitter Page Management</p>
+          <p>Click start when you begin working on your internship and end when you are done.</p>
+          </div>
+          </div>
+          <div class="row">
+          <div class="col s12 m3 l6 right-align white-text">
+            <a class="waves-effect waves-light btn-large" id="modal-draft">Start</a>
+          </div>
+          <div class="col s12 m3 l6 left-align white-text">
+            <a class="waves-effect waves-light btn-large" id="modal-close">End</a>
+          </div>
+          </div><!--  ROW END -->
+          <div class="row">
+          <div class="col s12 m6 l12 left-align">
+            <form id="form" name="form">
+              <div class="row">
+                <div class="col s12 m6 l12">
+                  <label>Date</label>
+                  <input id="date" type="text">
+                </div>
+                <div class="col s12 m6 l12">
+                  <label>Time Started</label>
+                  <input id="time-started" type="text">
+                </div>
+                <div class="col s12 m6 l12">
+                  <label>Time Ended</label>
+                  <input id="time-ended" type="text">
+                </div>
+                <div class="col s12 m6 l12">
+                  <label>Total Hours for the day</label>
+                  <input id="prevInd1" type="text">
+                </div>
+                <div class="col s12 m6 l12">
+                  <label>What did you do during this time</label>
+                  <input id="prevInd1" type="text">
+                </div>
+              </div>
+            </form>
+          </div>
+          </div> <!--  ROW END -->
+          <div class="row">
+          <div class="col s12 m6 l12 center-align">
+              <p>Is this task completed?</p>
+          </div>
+          </div> <!--  ROW END -->
+          <div class="row">
+          <div class="col s12 m3 l6 right-align white-text">
+            <a class="waves-effect waves-light btn-large" id="modal-draft">Yes</a>
+          </div>
+          <div class="col s12 m3 l6 left-align white-text">
+            <a class="waves-effect waves-light btn-large" id="modal-close">No</a>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
 <!-- =========================CAREER GOALS MODAL======================= -->
   <div id="modal1" class="modal careergoals-modal">
     <div class="modal-content">
@@ -523,7 +659,7 @@
           </div> <!--  ROW END -->
           <div class="row">
             <div class="col s12 m6 l12 left-align">
-              <p class="careergoals-descrip">Think about your previous job titles. What jobs did you love and what jobs did you dislike. Consider the industry, would you like to have that job in a different industry? Now list your top three job titles you would like to have and your top three industries you would like to work in. Dream Big! Dont limit yourself to what you already know and what others are doing. </p>
+              <p class="careergoals-descrip">Think about your previous job titles. What jobs did you love and what jobs did you dislike. Consider the industry, would you like to have that job in a different industry? Now list your top three job titles you would like to have and your top three industries you would like to work in. Dream Big! Dont limit yourself to what you already know and what others are doing.</p><br>
             </div>
           </div> <!--  ROW END -->
           <div class="row">
@@ -593,8 +729,8 @@
       <div class="row">
         <div class="col s12 m6 l12">
         <!-- ROW ONE -->
-            <!-- CARD ONE -->
-            
+
+          <!-- CARD ONE -->
           <div class="row" id="page-title">
           <div class="col s12 m6 l12">
             <span class="card-title left-align"><h1><b>Journal</b></h1></span>
@@ -650,8 +786,8 @@
             </div> <!-- content end -->
           </div> <!-- card end -->
         </div> <!-- col end -->
-             <!-- CARD TWO -->
 
+        <!-- CARD TWO -->
         <div class="col s12 m4 l4">
           <div class="card white darken-1 left-align" id="card-long">
           <div class="card-content">

@@ -6148,7 +6148,7 @@ textarea.materialize-textarea {
   line-height: 25px;
   font-size: 1rem;
   transition: .28s ease;
-  /* webkit (konqueror) browsers */
+   webkit (konqueror) browsers 
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -6161,9 +6161,9 @@ textarea.materialize-textarea {
   position: absolute;
   left: 0;
   top: 0;
-  margin: 4px;
-  width: 16px;
-  height: 16px;
+  margin: 6px;
+  width: 20px;
+  height: 20px;
   z-index: 0;
   transition: .28s ease;
 }
@@ -6175,7 +6175,7 @@ textarea.materialize-textarea {
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:before,
 [type="radio"].with-gap:checked + label:after {
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 [type="radio"]:not(:checked) + label:before,
@@ -6196,12 +6196,12 @@ textarea.materialize-textarea {
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:before,
 [type="radio"].with-gap:checked + label:after {
-  border: 2px solid #26a69a;
+  border: 2px solid #F45828 ;
 }
 
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:after {
-  background-color: #26a69a;
+  background-color: #F45828 ;
 }
 
 [type="radio"]:checked + label:after {
