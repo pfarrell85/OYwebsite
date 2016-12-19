@@ -12,18 +12,6 @@ $(document).ready(function(){
 
 })
 //===============================DIVS========================================
-// $(function()
-// {
-// 	//Will initiate the div areas for each tab
-//      $("a#toggle").click(function()
-//      {
-//          $("#careerSlider").slideToggle();
-//          return false;
-
-//          $("#projectSlider").slideToggle();
-//          return false;
-//      }); 
-// });
 
 $(document).ready(function(){
     // $('#box-four').hide
@@ -52,8 +40,8 @@ $('.journal-modal').modal({
     opacity: .7, // Opacity of modal background
     in_duration: 300, // Transition in duration
     out_duration: 200, // Transition out duration
-    starting_top: '4%', // Starting top style attribute
-    ending_top: '4%', // Ending top style attribute
+    starting_top: '2%', // Starting top style attribute
+    ending_top: '2%', // Ending top style attribute
     }
 ); //END 
 
@@ -68,8 +56,20 @@ $('.careergoals-modal').modal({
     }
 ); //END MODAL
 
+// CAREER MODAL 
+$('.project-modal').modal({
+    dismissible: true, // Modal can be dismissed by clicking outside of the modal
+    opacity: .7, // Opacity of modal background
+    in_duration: 300, // Transition in duration
+    out_duration: 200, // Transition out duration
+    starting_top: '2%', // Starting top style attribute
+    ending_top: '2%', // Ending top style attribute
+    }
+); //END MODAL
+
 $('#modal-close').on('click', function() {
     $('#modal1').modal('close');
-    $('#modal2').modal('close');
+
+
     // $('#login').webuiPopover('hide');
 })

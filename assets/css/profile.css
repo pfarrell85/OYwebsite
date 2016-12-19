@@ -20,7 +20,7 @@ body{
     margin: auto;
 }
 /*================================Master Style================================*/
-h2, nav ul a, a, .title, .card-title, #badge, #CL, p{color: #F45828 !important;}
+h2, nav ul a, a, .title, .card-title, #badge, #CL, {color: #F45828 !important;}
 
 ul li, #page-title {color: #5d5d5d;}
 
@@ -210,17 +210,31 @@ footer.text{
     margin:auto;
 }
 
-.journal-modal, .careergoals-modal{
-    width: 90%;
-    height: 100%;
-  /*  overflow: hidden;*/
-    min-width: 500px !important;
-    min-height: 900px !important;
-    margin-bottom: 5%;
-
+.modal{
+    font-size: 16px;
+    background-color: background-color: #F7F7F7 !important;
 }
 
-.careergoals-modal input, .journal-modal{
-    margin-bottom: 8px;
+.career-modal, journal-modal{
+    width: 90%;
+    height: 100%;
+    min-width: 600px !important;
+    min-height: 900px !important;
+}
+
+.project-modal{
+    width: 50%
+    margin:auto;
+}
+
+.modal input {
+    margin-bottom: 4px;
+    background-color: #FFF;
+    border:.5px solid #000;
+    padding: .5px;
+}
+.careergoals-modal input{
+    margin-bottom: 4px;
     height: 2rem
+
 }
